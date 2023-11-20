@@ -5,10 +5,12 @@ import mysql.connector
 from random_username.generate import generate_username
 
 # database details
+# enter proper details for host, user and password.
+
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="sqllogin",
+    passwd="password",
     database="passman"
 )
 
